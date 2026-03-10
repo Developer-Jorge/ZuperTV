@@ -1,0 +1,12 @@
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/ZuperTvApplication.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/controller/CatalogoController.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Contenido.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Episodio.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Genero.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Historial.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Pelicula.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Temporada.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/model/Usuario.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/repository/ContenidoRepository.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/repository/PeliculaRepository.java
+/home/jorge/Documentos/ZuperTV/src/main/java/com/Streaming/ZuperTV/service/ContenidoService.java

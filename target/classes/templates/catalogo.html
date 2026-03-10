@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Plataforma VOD</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #141414; color: white; padding: 20px; }
+        .grilla-catalogo { display: flex; flex-wrap: wrap; gap: 20px; }
+        .tarjeta-pelicula { background-color: #2f2f2f; border-radius: 8px; padding: 10px; width: 200px; text-align: center; }
+        .poster { width: 100%; height: 300px; object-fit: cover; border-radius: 5px; }
+        .titulo { font-size: 1.1em; margin: 10px 0 5px 0; }
+        .descripcion { font-size: 0.8em; color: #ccc; }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Películas</h1>
+
+    <div class="grilla-catalogo">
+        <div th:each="pelicula : ${listaDePeliculas}" class="tarjeta-pelicula">
+            
+            <a th:href="@{/pelicula/{id}(id=${pelicula.idContenido})}" style="text-decoration: none; color: inherit;">
+                <img th:src="${pelicula.urlPoster}" alt="Póster" class="poster">
+                <h2 class="titulo" th:text="${pelicula.titulo}">Título</h2>
+                <p class="descripcion" th:text="${pelicula.descripcion}">Descripción</p>
+            </a>
+            
+        </div>
+    </div>
+
+</body>
+</html>

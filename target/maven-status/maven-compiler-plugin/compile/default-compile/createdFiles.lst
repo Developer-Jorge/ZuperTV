@@ -1,0 +1,12 @@
+com/Streaming/ZuperTV/model/Pelicula.class
+com/Streaming/ZuperTV/model/Usuario.class
+com/Streaming/ZuperTV/model/Contenido.class
+com/Streaming/ZuperTV/ZuperTvApplication.class
+com/Streaming/ZuperTV/controller/CatalogoController.class
+com/Streaming/ZuperTV/model/Historial.class
+com/Streaming/ZuperTV/repository/ContenidoRepository.class
+com/Streaming/ZuperTV/model/Episodio.class
+com/Streaming/ZuperTV/model/Temporada.class
+com/Streaming/ZuperTV/repository/PeliculaRepository.class
+com/Streaming/ZuperTV/service/ContenidoService.class
+com/Streaming/ZuperTV/model/Genero.class
